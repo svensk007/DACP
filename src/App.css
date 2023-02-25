@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -13,8 +19,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.section {
+  background: #313131;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +28,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
 }
 
 .App-link {
@@ -34,5 +41,50 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.scroll {
+  height: 50px;
+  width: 30px;
+  border: 2px solid #fefefe;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.scroll::before,
+.scroll::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  border: 2px solid #fefefe;
+  height: 10px;
+  width: 10px;
+  /*border-radius: 999px;*/
+  transform: translate(-50%, -70%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll 1s ease-in-out infinite;
+}
+.scroll::after {
+  top: 40%;
+  animation-delay: 0.3s;
+}
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 70%;
   }
 }
