@@ -1,12 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
 function App() {
-  const ref = useRef(null);
-  const isInView = useInView(ref);
-
   return (
     <div className="App">
       <section id="header" className="section">
@@ -18,7 +14,7 @@ function App() {
           <div class="scroll"></div>
         </a>
       </section>
-      <section ref={ref} id="WDYM" className="section">
+      <section id="WDYM" className="section">
         <motion.h1
           initial={{ x: "-100vw" }}
           animate={{ x: 0 }}
