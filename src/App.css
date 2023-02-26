@@ -5,6 +5,18 @@
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: #313131;
+}
+body::-webkit-scrollbar-thumb {
+  background: #0cf867;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #067430;
+}
 
 .App {
   text-align: center;
@@ -21,7 +33,7 @@
 
 .become-one {
   animation: background-pan 3s linear infinite;
-  background: linear-gradient(to right, purple, violet, purple);
+  background: linear-gradient(to right, #0cf867, #01f0e3, #0cf867);
   background-size: 200%;
   background-clip: text;
   color: transparent;

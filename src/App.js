@@ -22,7 +22,7 @@ function App() {
         <motion.h1
           initial={{ x: "-100vw" }}
           animate={{ x: 0 }}
-          transition={{ type: "spring", duration: 1, bounce: 0.1 }}
+          transition={{ type: "spring", duration: 1, bounce: 0.3 }}
         >
           WDYM?
         </motion.h1>
