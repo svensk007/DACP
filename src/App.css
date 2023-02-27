@@ -1,11 +1,13 @@
 * {
-  background: #303030;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
+}
+html {
+  background: #303030;
 }
 main::-webkit-scrollbar {
   width: 0.25rem;
