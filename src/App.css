@@ -4,6 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  font-family: "Inter", sans-serif;
 }
 main::-webkit-scrollbar {
   width: 0.25rem;
@@ -74,7 +75,7 @@ main > section {
   scroll-snap-align: start;
 }
 section {
-  font-weight: bolder;
+  font-weight: 800;
   background: #303030;
   min-height: 100vh;
   display: flex;
