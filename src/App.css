@@ -74,7 +74,7 @@ main > section {
   scroll-snap-align: start;
 }
 section {
-  font-weight: bolder
+  font-weight: bolder;
   background: #303030;
   min-height: 100vh;
   display: flex;
