@@ -31,8 +31,8 @@ function App() {
           </a>
         </section>
         <section id="here-why">
-          <h1>Well...</h1>
-          <h2>Read this &dArr;</h2>
+          <h1>Why beware of distracted driving?</h1>
+          <h2>Read this ↓</h2>
           <a href="#final">
             <div className="scroll"></div>
           </a>
