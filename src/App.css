@@ -84,7 +84,7 @@ main {
 main > section {
   scroll-snap-align: start;
 }
-.section {
+section {
   background: #303030;
   min-height: 100vh;
   display: flex;

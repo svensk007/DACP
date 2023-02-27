@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <main>
-        <section id="header" className="section">
+        <section id="header">
           <motion.h1
             animate={{ opacity: [0, 1], y: [75, 0] }}
             transition={{ type: "spring", duration: 0.5, bounce: 0.3 }}
@@ -22,15 +22,19 @@ function App() {
             <div className="scroll"></div>
           </a>
         </section>
-        <section id="WDYM" className="section">
+        <section id="WDYM">
           <h1 ref={WDYM} className={wdymVisible ? "visible" : "hidden"}>
-            WDYM?
+            What do you mean?
           </h1>
           <a href="#final">
             <div className="scroll"></div>
           </a>
         </section>
-        <section id="final" className="section">
+        <section id="here-why">
+          <h1>Well...</h1>
+          <h2>Read this &dArr;</h2>
+        </section>
+        <section id="final">
           <h1
             ref={final}
             className={finalVisible ? "final-visible" : "final-hidden"}
