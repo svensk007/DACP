@@ -22,6 +22,11 @@ main::-webkit-scrollbar-thumb:hover {
   background: #067430;
 }
 
+.sub {
+  font-size: 1.5rem;
+  color: #808080;
+}
+
 .hidden {
   opacity: 0;
   filter: blur(5px);
