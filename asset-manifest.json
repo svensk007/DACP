@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DACP/static/css/main.fdc5b32a.css",
-    "main.js": "/DACP/static/js/main.e0087a95.js",
+    "main.css": "/DACP/static/css/main.e53db61a.css",
+    "main.js": "/DACP/static/js/main.45e29747.js",
     "static/js/787.29b82835.chunk.js": "/DACP/static/js/787.29b82835.chunk.js",
     "index.html": "/DACP/index.html",
-    "main.fdc5b32a.css.map": "/DACP/static/css/main.fdc5b32a.css.map",
-    "main.e0087a95.js.map": "/DACP/static/js/main.e0087a95.js.map",
+    "main.e53db61a.css.map": "/DACP/static/css/main.e53db61a.css.map",
+    "main.45e29747.js.map": "/DACP/static/js/main.45e29747.js.map",
     "787.29b82835.chunk.js.map": "/DACP/static/js/787.29b82835.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdc5b32a.css",
-    "static/js/main.e0087a95.js"
+    "static/css/main.e53db61a.css",
+    "static/js/main.45e29747.js"
   ]
 }
