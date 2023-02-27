@@ -15,13 +15,12 @@ function App() {
         </a>
       </section>
       <section id="WDYM" className="section">
-        <motion.h1
-          initial={{ x: "-100vw" }}
-          animate={{ x: 0 }}
-          transition={{ type: "spring", duration: 1, bounce: 0.3 }}
-        >
-          WDYM?
-        </motion.h1>
+        <h1 className="hidden">WDYM?</h1>
+      </section>
+      <section id="final" className="section">
+        <h1>
+          Will you <span className="become-one">become one</span>?
+        </h1>
       </section>
     </div>
   );
