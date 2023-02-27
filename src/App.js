@@ -20,7 +20,7 @@ function App() {
           </motion.h1>
           <a href="#WDYM">
             <div
-              className="scroll-visible"
+              className="scroll"
             ></div>
           </a>
         </section>
@@ -29,14 +29,14 @@ function App() {
             What do you mean?
           </h1>
           <a href="#here-why">
-            <div className="scroll-visible"></div>
+            <div className="scroll"></div>
           </a>
         </section>
         <section id="here-why">
           <h1>Why beware of distracted driving?</h1>
           <h2>Read this ↓</h2>
           <a href="#final">
-            <div className="scroll-visible"></div>
+            <div className="scroll"></div>
           </a>
         </section>
         <section id="final">
