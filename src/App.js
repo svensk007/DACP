@@ -26,13 +26,16 @@ function App() {
           <h1 ref={WDYM} className={wdymVisible ? "visible" : "hidden"}>
             What do you mean?
           </h1>
-          <a href="#final">
+          <a href="#here-why">
             <div className="scroll"></div>
           </a>
         </section>
         <section id="here-why">
           <h1>Well...</h1>
           <h2>Read this &dArr;</h2>
+          <a href="#final">
+            <div className="scroll"></div>
+          </a>
         </section>
         <section id="final">
           <h1
