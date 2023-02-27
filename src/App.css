@@ -74,13 +74,6 @@ h2::before {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.become-one::selection {
-  animation: background-pan 3s linear infinite;
-  background: linear-gradient(to right, #0cf867, #01f0e3, #0cf867);
-  color: #fefefe;
-  background-size: 200%;
-  background-clip: none;
-}
 
 main {
   height: 100vh;
@@ -111,7 +104,7 @@ section {
   }
 }
 
-.scroll-visible {
+.scroll {
   height: 50px;
   width: 30px;
   border: 2px solid #fefefe;
@@ -124,15 +117,8 @@ section {
   transition: all 2s cubic-bezier(0.41, -0.11, 0.35, 1.21);
   transform: translateY(0);
 }
-.scroll-hidden {
-  opacity: 0;
-  transform: translateY(-1vh);
-  transition: all 2s cubic-bezier(0.41, -0.11, 0.35, 1.21);
-}
-.scroll-visible::before,
-.scroll-visible::after,
-.scroll-hidden::before,
-.scroll-hidden::after {
+.scroll::before,
+.scroll::after {
   content: "";
   position: absolute;
   top: 20%;
@@ -146,8 +132,7 @@ section {
   border-left: transparent;
   animation: scroll 1s ease-in-out infinite;
 }
-.scroll-visible::after,
-.scroll-hidden::after {
+.scroll::after {
   top: 40%;
   animation-delay: 0.3s;
 }

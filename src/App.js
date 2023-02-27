@@ -6,7 +6,6 @@ function App() {
   // Refs for AoS
   const { ref: WDYM, inView: wdymVisible } = useInView();
   const { ref: final, inView: finalVisible } = useInView();
-  const { ref: wdymScroll, inView: wdymScrollVisible } = useInView();
 
   return (
     <div className="App">
@@ -21,8 +20,7 @@ function App() {
           </motion.h1>
           <a href="#WDYM">
             <div
-              ref={wdymScroll}
-              className={wdymScrollVisible ? "scroll-visible" : "scroll-hidden"}
+              className="scroll-visible"
             ></div>
           </a>
         </section>
