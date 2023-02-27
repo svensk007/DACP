@@ -70,6 +70,8 @@ main::-webkit-scrollbar-thumb:hover {
   animation: background-pan 3s linear infinite;
   background: linear-gradient(to right, #0cf867, #01f0e3, #0cf867);
   color: #fefefe;
+  background-size: 200%;
+  background-clip: none;
 }
 
 main {
