@@ -66,6 +66,11 @@ main::-webkit-scrollbar-thumb:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.become-one::selection {
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(to right, #0cf867, #01f0e3, #0cf867);
+  color: #fefefe;
+}
 
 main {
   height: 100vh;
