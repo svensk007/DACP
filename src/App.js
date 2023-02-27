@@ -6,6 +6,7 @@ function App() {
   // Refs for AoS
   const { ref: WDYM, inView: wdymVisible } = useInView();
   const { ref: final, inView: finalVisible } = useInView();
+  const { ref: wdymScroll, inView: wdymScrollVisible } = useInView();
 
   return (
     <div className="App">
@@ -19,7 +20,10 @@ function App() {
             <span className="become-one">become one</span>.
           </motion.h1>
           <a href="#WDYM">
-            <div className="scroll"></div>
+            <div
+              ref={wdymScroll}
+              className={wdymScrollVisible ? "scroll-visible" : "scroll-hidden"}
+            ></div>
           </a>
         </section>
         <section id="WDYM">
@@ -27,14 +31,14 @@ function App() {
             What do you mean?
           </h1>
           <a href="#here-why">
-            <div className="scroll"></div>
+            <div className="scroll-visible"></div>
           </a>
         </section>
         <section id="here-why">
           <h1>Why beware of distracted driving?</h1>
           <h2>Read this ↓</h2>
           <a href="#final">
-            <div className="scroll"></div>
+            <div className="scroll-visible"></div>
           </a>
         </section>
         <section id="final">
