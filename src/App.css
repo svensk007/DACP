@@ -57,6 +57,14 @@ main::-webkit-scrollbar-thumb:hover {
   }
 }
 
+h2 {
+  color: gray;
+  font-style: italic;
+}
+h2::before {
+  content: "// ";
+}
+
 .become-one {
   animation: background-pan 3s linear infinite;
   background: linear-gradient(to right, #0cf867, #01f0e3, #0cf867);
