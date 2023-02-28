@@ -29,6 +29,9 @@ main::-webkit-scrollbar-thumb:hover {
   flex-direction: row;
 }
 .grid-icon {
+  filter: drop-shadow(0 5px 4px rgb(0 0 0 / 0.3))
+    drop-shadow(0 3px 3px rgb(0 0 0 / 0.07));
+  margin-bottom: 0.5rem;
   background: #24292f;
   border-radius: 8px;
   height: 30rem;
