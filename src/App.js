@@ -60,9 +60,9 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.nhtsa.gov/risky-driving/drowsy-driving"
-                className="link"
+                className="source"
               >
-                from nhsta.gov
+                nhsta.gov
               </a>
             </div>
             <div className="card">
@@ -80,7 +80,7 @@ function App() {
                 href="https://www.nhtsa.gov/risky-driving/drowsy-driving"
                 className="source"
               >
-                from nhsta.gov
+                nhsta.gov
               </a>
             </div>
             <div className="card">
@@ -105,7 +105,7 @@ function App() {
                 href="https://www.nhtsa.gov/risky-driving/drowsy-driving"
                 className="source"
               >
-                from nhsta.gov
+                nhsta.gov
               </a>
             </div>
             <div className="card">DIV</div>
