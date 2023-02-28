@@ -22,6 +22,10 @@ main::-webkit-scrollbar-thumb:hover {
   background: #067430;
 }
 
+p {
+  font-size: small;
+  word-wrap: normal;
+}
 .card-container {
   margin-top: 2rem;
   display: flex;
