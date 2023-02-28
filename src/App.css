@@ -22,8 +22,14 @@ main::-webkit-scrollbar-thumb:hover {
   background: #067430;
 }
 
-p {
-  font-size: small;
+.link {
+  color: #505050;
+  text-decoration: underline;
+  font-size: .75rem;
+  bottom: 4px;
+}
+.card-text {
+  font-size: 1rem;
   word-wrap: normal;
 }
 .card-container {
@@ -38,8 +44,8 @@ p {
   margin-bottom: 8px;
   background: #24292f;
   border-radius: 8px;
-  height: 30rem;
-  width: 20rem;
+  height: 25rem;
+  width: calc(15rem + 15px);
   border: #30363d 1px solid;
   padding: 10px;
   margin-left: 1.5rem;

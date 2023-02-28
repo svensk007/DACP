@@ -43,6 +43,8 @@ function App() {
           <h1 ref={WDYM} className={wdymVisible ? "visible" : "hidden"}>
             What do you mean?
             <br /> Why beware of drowsy driving?
+            <br />
+            Why worry so early?
           </h1>
         </section>
         <section id="facts">
@@ -50,9 +52,37 @@ function App() {
           <div className="card-container">
             <div className="card">
               <h1>Crashes</h1>
-              <p>In 2017 there were ~91,000 crashes with drowsy drivers with ~50,000 injured and ~800 deaths</p>
+              <p className="card-text">
+                In 2017 there were ~91,000 crashes with drowsy drivers with
+                ~50,000 injured and ~800 deaths
+              </p>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.nhtsa.gov/risky-driving/drowsy-driving"
+                className="link"
+              >
+                from nhsta.gov
+              </a>
             </div>
-            <div className="card">DIV</div>
+            <div className="card">
+              <h1>When?</h1>
+              <li>
+                <ul className="card-text">
+                  Between midnight and 6:00 a.m. or late afternoon
+                </ul>
+                <ul className="card-text">Often only the driver in the car</ul>
+                <ul className="card-text">Usually rural roads and highways</ul>
+              </li>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.nhtsa.gov/risky-driving/drowsy-driving"
+                className="link"
+              >
+                from nhsta.gov
+              </a>
+            </div>
             <div className="card">DIV</div>
             <div className="card">DIV</div>
           </div>
