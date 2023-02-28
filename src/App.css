@@ -22,6 +22,7 @@ main::-webkit-scrollbar-thumb:hover {
   background: #067430;
 }
 
+/* cards in "things to remember" */
 .link {
   color: #505050;
   text-decoration: underline;
@@ -34,6 +35,7 @@ main::-webkit-scrollbar-thumb:hover {
   word-wrap: normal;
 }
 .card-container {
+  text-align: left;
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
@@ -46,7 +48,7 @@ main::-webkit-scrollbar-thumb:hover {
   background: #24292f;
   border-radius: 8px;
   height: 25rem;
-  width: calc(15rem + 15px);
+  width: calc(16rem + 15px);
   border: #30363d 1px solid;
   padding: 10px;
   margin-left: 1.5rem;
