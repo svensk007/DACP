@@ -53,7 +53,7 @@ function App() {
           <h1>things to remember</h1>
           <div className="card-container">
             <div className="card">
-              <h1>Crashes</h1>
+              <h1 className="card-title">Crashes</h1>
               <p className="card-text">
                 In 2017 there were ~91,000 crashes with drowsy drivers with
                 ~50,000 injured and ~800 deaths
@@ -68,7 +68,7 @@ function App() {
               </a>
             </div>
             <div className="card">
-              <h1>When?</h1>
+              <h1 className="card-title">When?</h1>
               <ul>
                 <li className="card-text">
                   Between midnight and 6:00am or late afternoon
@@ -86,7 +86,7 @@ function App() {
               </a>
             </div>
             <div className="card">
-              <h1>Driving Alert</h1>
+              <h1 className="card-title">Driving Alert</h1>
               <ul>
                 <li className="card-text">Get good sleep (7-8 hours)</li>
                 <li className="card-text">Most teens don't get enough sleep</li>
@@ -111,7 +111,9 @@ function App() {
                 nhsta.gov
               </a>
             </div>
-            <div className="card">DIV</div>
+            <div className="card">
+              <h1 className="card-title">Title</h1>
+            </div>
           </div>
         </section>
         <section id="final">

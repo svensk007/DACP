@@ -28,12 +28,16 @@ main::-webkit-scrollbar-thumb:hover {
   text-decoration: underline;
   font-size: 0.75rem;
   margin-top: 10px;
+  transition: all 0.25s;
 }
-
-/* cards in "things to remember" */
+.source:hover {
+  color: #0cf867;
+}
 .source::before {
   content: "from ";
 }
+
+/* cards in "things to remember" */
 .card-text {
   font-weight: 600;
   margin-top: 10px;
@@ -46,6 +50,9 @@ main::-webkit-scrollbar-thumb:hover {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+.card-title {
+  border-bottom: #30363d 1px solid;
 }
 .card {
   filter: drop-shadow(0 5px 4px rgb(0 0 0 / 0.3))
