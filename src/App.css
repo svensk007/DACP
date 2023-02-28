@@ -56,6 +56,14 @@ main::-webkit-scrollbar-thumb:hover {
   text-align: center;
 }
 
+h2 {
+  color: gray;
+  font-style: italic;
+}
+h2::before {
+  content: "// ";
+}
+
 @keyframes background-pan {
   from {
     background-position: 0% center;
@@ -63,14 +71,6 @@ main::-webkit-scrollbar-thumb:hover {
   to {
     background-position: -200% center;
   }
-}
-
-h2 {
-  color: gray;
-  font-style: italic;
-}
-h2::before {
-  content: "// ";
 }
 
 .become-one {
@@ -101,15 +101,6 @@ section {
   font-size: calc(10px + 2vmin);
   color: white;
   position: relative;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .scroll {
