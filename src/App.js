@@ -67,13 +67,11 @@ function App() {
             </div>
             <div className="card">
               <h1>When?</h1>
-              <ul>
-                <li className="card-text">
-                  Between midnight and 6:00 a.m. or late afternoon
-                </li>
-                <li className="card-text">Often only the driver in the car</li>
-                <li className="card-text">Usually rural roads and highways</li>
-              </ul>
+              <li className="card-text">
+                Between midnight and 6:00 a.m. or late afternoon
+              </li>
+              <li className="card-text">Often only the driver in the car</li>
+              <li className="card-text">Usually rural roads and highways</li>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -83,7 +81,17 @@ function App() {
                 from nhsta.gov
               </a>
             </div>
-            <div className="card">DIV</div>
+            <div className="card">
+              <h1>Driving Alert</h1>
+              <li className="card-text">Get good sleep (7-8 hours)</li>
+              <li className="card-text">Most teens don't get enough sleep</li>
+              <li className="card-text">Some medications can cause sleepiness</li>
+              <li className="card-text">Avoid driving in those peak sleepiness periods (12:00am-6:00am)</li>
+              <li className="card-text">
+                Once you are 21 don't drink alcohol before driving; it slows you
+                down and makes you sleepy
+              </li>
+            </div>
             <div className="card">DIV</div>
           </div>
         </section>
