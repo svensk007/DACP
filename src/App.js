@@ -20,7 +20,7 @@ function App() {
               delay: 0.5,
             }}
           >
-            Satistics are fun; until you{" "}
+            Statistics are fun; until you{" "}
             <span className="become-one">become one</span>.
           </motion.h1>
           <motion.h1
