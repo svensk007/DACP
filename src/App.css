@@ -25,10 +25,11 @@ main::-webkit-scrollbar-thumb:hover {
 .link {
   color: #505050;
   text-decoration: underline;
-  font-size: .75rem;
-  bottom: 4px;
+  font-size: 0.75rem;
+  margin-top: 10px;
 }
 .card-text {
+  margin-top: 10px;
   font-size: 1rem;
   word-wrap: normal;
 }

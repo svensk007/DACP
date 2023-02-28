@@ -48,7 +48,7 @@ function App() {
           </h1>
         </section>
         <section id="facts">
-          <h1>The stuff to back it up</h1>
+          <h1>The things to remember</h1>
           <div className="card-container">
             <div className="card">
               <h1>Crashes</h1>
@@ -67,13 +67,13 @@ function App() {
             </div>
             <div className="card">
               <h1>When?</h1>
-              <li>
-                <ul className="card-text">
+              <ul>
+                <li className="card-text">
                   Between midnight and 6:00 a.m. or late afternoon
-                </ul>
-                <ul className="card-text">Often only the driver in the car</ul>
-                <ul className="card-text">Usually rural roads and highways</ul>
-              </li>
+                </li>
+                <li className="card-text">Often only the driver in the car</li>
+                <li className="card-text">Usually rural roads and highways</li>
+              </ul>
               <a
                 target="_blank"
                 rel="noreferrer"
