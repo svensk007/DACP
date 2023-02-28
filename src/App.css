@@ -23,11 +23,14 @@ main::-webkit-scrollbar-thumb:hover {
 }
 
 /* cards in "things to remember" */
-.link {
-  color: #505050;
+.source {
+  font-style: italic;
+  color: #606060;
   text-decoration: underline;
   font-size: 0.75rem;
   margin-top: 10px;
+}.source::before {
+  content: 'from '
 }
 .card-text {
   margin-top: 10px;
