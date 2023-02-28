@@ -33,7 +33,7 @@ function App() {
               delay: 0.5,
             }}
           >
-            (Especially drowsy driving)
+            (Especially for drowsy driving)
           </motion.h1>
           <a href="#WDYM">
             <div className="scroll"></div>
@@ -44,6 +44,15 @@ function App() {
             What do you mean?
             <br /> Why beware of drowsy driving?
           </h1>
+        </section>
+        <section id="facts">
+          <h1>The stuff to back it up</h1>
+          <div className="grid-container">
+            <div className="grid-icon">DIV</div>
+            <div className="grid-icon">DIV</div>
+            <div className="grid-icon">DIV</div>
+            <div className="grid-icon">DIV</div>
+          </div>
         </section>
         <section id="final">
           <h1

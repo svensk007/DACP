@@ -7,7 +7,7 @@
   font-family: "Inter", sans-serif;
 }
 html {
-  background: #303030;
+  background: #1b1f24;
 }
 main::-webkit-scrollbar {
   width: 0.25rem;
@@ -20,6 +20,22 @@ main::-webkit-scrollbar-thumb {
 }
 main::-webkit-scrollbar-thumb:hover {
   background: #067430;
+}
+
+.grid-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.grid-icon {
+  background: #24292f;
+  border-radius: 8px;
+  height: 30rem;
+  width: 20rem;
+  border: #30363d 1px solid;
+  padding: 10px;
+  margin-left: 2rem;
 }
 
 /* SUBHEADER */
@@ -94,7 +110,6 @@ main > section {
 }
 section {
   font-weight: 800;
-  background: #303030;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
