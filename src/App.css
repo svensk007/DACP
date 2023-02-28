@@ -31,13 +31,12 @@ main::-webkit-scrollbar-thumb:hover {
   transition: all 0.5s;
   font-style: italic;
   color: #606060;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 0.75rem;
   margin-top: 10px;
 }
 .source:hover {
   transition: all 0.5s;
-  text-decoration: underline;
   text-decoration-color: linear-gradient(to right, #0cf867, #01f0e3, #0cf867);
   animation: background-pan 3s linear infinite;
   background: linear-gradient(to right, #0cf867, #01f0e3, #0cf867);
@@ -54,11 +53,12 @@ main::-webkit-scrollbar-thumb:hover {
 /* cards in "things to remember" */
 .card-text {
   font-weight: 600;
-  margin-top: 4px;
+  margin-top: 8px;
   font-size: 1rem;
   word-wrap: normal;
 }
 .card-container {
+  overflow: auto;
   text-align: left;
   margin-top: 2rem;
   display: flex;
@@ -75,8 +75,8 @@ main::-webkit-scrollbar-thumb:hover {
   margin-bottom: 10px;
   background: #24292f;
   border-radius: 8px;
-  height: 25rem;
-  width: calc(16rem + 15px);
+  height: calc(30rem + 15px);
+  width: calc(20rem + 15px);
   border: #30363d 1px solid;
   padding: 10px;
   margin-left: 1.5rem;
