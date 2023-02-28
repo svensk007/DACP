@@ -42,8 +42,8 @@ function App() {
         <section id="WDYM">
           <h1 ref={WDYM} className={wdymVisible ? "visible" : "hidden"}>
             What do you mean?
-          </h1>{" "}
-          <h1>Why beware of drowsy driving?</h1>
+            <br /> Why beware of drowsy driving?
+          </h1>
         </section>
         <section id="final">
           <h1
