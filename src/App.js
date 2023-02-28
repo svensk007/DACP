@@ -47,14 +47,14 @@ function App() {
         </section>
         <section id="facts">
           <h1>The stuff to back it up</h1>
-          <div className="grid-container">
-            <div className="grid-icon">
+          <div className="card-container">
+            <div className="card">
               <h1>Crashes</h1>
               <p>In 2017 there were ~91,000 crashes with drowsy drivers with ~50,000 injured and ~800 deaths</p>
             </div>
-            <div className="grid-icon">DIV</div>
-            <div className="grid-icon">DIV</div>
-            <div className="grid-icon">DIV</div>
+            <div className="card">DIV</div>
+            <div className="card">DIV</div>
+            <div className="card">DIV</div>
           </div>
         </section>
         <section id="final">
