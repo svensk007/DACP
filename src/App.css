@@ -28,15 +28,17 @@ main::-webkit-scrollbar-thumb:hover {
 }
 
 .source {
+  transition: all 0.5s;
   font-style: italic;
   color: #606060;
   text-decoration: underline;
   font-size: 0.75rem;
   margin-top: 10px;
-  transition: all 0.25s;
 }
 .source:hover {
+  transition: all 0.5s;
   text-decoration: underline;
+  text-decoration-color: linear-gradient(to right, #0cf867, #01f0e3, #0cf867);
   animation: background-pan 3s linear infinite;
   background: linear-gradient(to right, #0cf867, #01f0e3, #0cf867);
   background-size: 200%;
@@ -44,7 +46,6 @@ main::-webkit-scrollbar-thumb:hover {
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: all 0.25s;
 }
 .source::before {
   content: "from ";

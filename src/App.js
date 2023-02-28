@@ -86,7 +86,7 @@ function App() {
               </a>
             </div>
             <div className="card">
-              <h1 className="card-title">Driving Alert</h1>
+              <h1 className="card-title">Drive Alert</h1>
               <ul>
                 <li className="card-text">Get good sleep (7-8 hours)</li>
                 <li className="card-text">Most teens don't get enough sleep</li>
