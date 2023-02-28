@@ -7,10 +7,6 @@
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
 }
-*::selection {
-  background: #0cf867;
-  color: #fefefe;
-}
 html {
   background: #1b1f24;
 }
@@ -33,7 +29,7 @@ main::-webkit-scrollbar-thumb:hover {
   color: #606060;
   text-decoration: none;
   font-size: 0.75rem;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .source:hover {
   transition: all 0.5s;
@@ -62,7 +58,6 @@ main::-webkit-scrollbar-thumb:hover {
   text-align: left;
   margin-top: 2rem;
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
 }
 .card-title {
@@ -75,8 +70,8 @@ main::-webkit-scrollbar-thumb:hover {
   margin-bottom: 10px;
   background: #24292f;
   border-radius: 8px;
-  height: calc(30rem + 15px);
-  width: calc(20rem + 15px);
+  height: calc(50vh + 10px);
+  width: calc(35vh + 20px);
   border: #30363d 1px solid;
   padding: 10px;
   margin-left: 1.5rem;

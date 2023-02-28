@@ -58,6 +58,10 @@ function App() {
                 In 2017 there were ~91,000 crashes with drowsy drivers with
                 ~50,000 injured and ~800 deaths
               </ul>
+              <ul className="card-text">
+                Drowsy driving related accidents are underreported because
+                investigators can only look for clues
+              </ul>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -98,8 +102,8 @@ function App() {
                   (12:00am-6:00am)
                 </li>
                 <li className="card-text">
-                  Once you are 21 don't drink alcohol before driving because it slows
-                  you down and makes you sleepy
+                  Once you are 21 don't drink alcohol before driving because it
+                  slows you down and makes you sleepy
                 </li>
               </ul>
               <a
