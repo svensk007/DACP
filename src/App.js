@@ -48,7 +48,7 @@ function App() {
           </h1>
         </section>
         <section id="facts">
-          <h1>The things to remember</h1>
+          <h1>things to remember</h1>
           <div className="card-container">
             <div className="card">
               <h1>Crashes</h1>
@@ -69,7 +69,7 @@ function App() {
               <h1>When?</h1>
               <ul>
                 <li className="card-text">
-                  Between midnight and 6:00 a.m. or late afternoon
+                  Between midnight and 6:00am or late afternoon
                 </li>
                 <li className="card-text">Often only the driver in the car</li>
                 <li className="card-text">Usually rural roads and highways</li>
@@ -99,7 +99,8 @@ function App() {
                   Once you are 21 don't drink alcohol before driving; it slows
                   you down and makes you sleepy
                 </li>
-              </ul>              <a
+              </ul>{" "}
+              <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.nhtsa.gov/risky-driving/drowsy-driving"
