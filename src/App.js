@@ -12,6 +12,7 @@ function App() {
       <main>
         <section id="header">
           <motion.h1
+            defer
             animate={{ opacity: [0, 1], y: [75, 0], delay: 0.5 }}
             transition={{
               type: "spring",
@@ -25,6 +26,7 @@ function App() {
           </motion.h1>
           <motion.h1
             className="sub"
+            defer
             animate={{ opacity: [0, 1], y: [75, 0], delay: 0.5 }}
             transition={{
               type: "spring",
@@ -99,7 +101,7 @@ function App() {
                   Once you are 21 don't drink alcohol before driving; it slows
                   you down and makes you sleepy
                 </li>
-              </ul>{" "}
+              </ul>
               <a
                 target="_blank"
                 rel="noreferrer"
