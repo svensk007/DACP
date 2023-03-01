@@ -83,8 +83,8 @@ main::-webkit-scrollbar-thumb:hover {
   margin-bottom: 10px;
   background: #24292f;
   border-radius: 8px;
-  height: calc(50vh + 10px);
-  width: calc(35vh + 20px);
+  height: calc(55vh + 10px);
+  width: calc(40vh + 20px);
   border: #30363d 1px solid;
   padding: 10px;
   margin-left: 1.5rem;
