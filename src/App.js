@@ -48,7 +48,7 @@ function App() {
             What do you mean?
             <br /> Why beware of drowsy driving?
             <br />
-            Why worry so early?
+            Why worry? I don't even have my liscense yet!
           </h1>
         </section>
         <section id="facts">
