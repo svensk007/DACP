@@ -67,7 +67,6 @@ main::-webkit-scrollbar-thumb:hover {
 .card-container {
   justify-content: center;
   width: 100%;
-  overflow: auto;
   text-align: left;
   margin-top: 2rem;
   display: flex;
