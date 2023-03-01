@@ -6,6 +6,8 @@ function App() {
   // Refs for AoS
   const { ref: WDYM, inView: wdymVisible } = useInView();
   const { ref: final, inView: finalVisible } = useInView();
+  const { ref: remember, inView: rememberVisible } = useInView();
+  const { ref: card, inView: cardVisible } = useInView();
 
   return (
     <div className="App">
@@ -50,9 +52,17 @@ function App() {
           </h1>
         </section>
         <section id="facts">
-          <h1>things to remember</h1>
+          <h1
+            ref={remember}
+            className={rememberVisible ? "remember-visible" : "remember-hidden"}
+          >
+            things to remember
+          </h1>
           <div className="card-container">
-            <div className="card">
+            <div
+              ref={card}
+              className={cardVisible ? "card-visible" : "card-hidden"}
+            >
               <h1 className="card-title">Risks</h1>
               <ul className="card-text">
                 In 2017 there were ~91,000 crashes with drowsy drivers with
@@ -76,7 +86,10 @@ function App() {
                 nhsta.gov
               </a>
             </div>
-            <div className="card">
+            <div
+              ref={card}
+              className={cardVisible ? "card-visible" : "card-hidden"}
+            >
               <h1 className="card-title">When?</h1>
               <ul>
                 <li className="card-text">
@@ -94,7 +107,10 @@ function App() {
                 nhsta.gov
               </a>
             </div>
-            <div className="card">
+            <div
+              ref={card}
+              className={cardVisible ? "card-visible" : "card-hidden"}
+            >
               <h1 className="card-title">Drive Alert</h1>
               <ul>
                 <li className="card-text">Get good sleep (7-8 hours)</li>
@@ -120,7 +136,10 @@ function App() {
                 nhsta.gov
               </a>
             </div>
-            <div className="card">
+            <div
+              ref={card}
+              className={cardVisible ? "card-visible" : "card-hidden"}
+            >
               <h1 className="card-title">Legal</h1>
               <ul className="card-text">
                 Only two states have legal consequences for people who drive
