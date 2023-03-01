@@ -101,7 +101,7 @@ main::-webkit-scrollbar-thumb:hover {
   background: #24292f;
   border-radius: 8px;
   height: calc(60vh + 20px);
-  width: calc(45vh + 20px);
+  width: calc(40vh + 25px);
   border: #30363d 1px solid;
   padding: 10px;
   margin-left: 1.5rem;
