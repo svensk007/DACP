@@ -65,6 +65,7 @@ main::-webkit-scrollbar-thumb:hover {
   word-wrap: normal;
 }
 .card-container {
+  overflow: hidden;
   justify-content: center;
   width: 100%;
   text-align: left;
