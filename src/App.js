@@ -53,7 +53,7 @@ function App() {
           <h1>things to remember</h1>
           <div className="card-container">
             <div className="card">
-              <h1 className="card-title">Crashes</h1>
+              <h1 className="card-title">Risks</h1>
               <ul className="card-text">
                 In 2017 there were ~91,000 crashes with drowsy drivers with
                 ~50,000 injured and ~800 deaths
@@ -61,6 +61,11 @@ function App() {
               <ul className="card-text">
                 Drowsy driving related accidents are underreported because
                 investigators can only look for clues
+              </ul>
+              <ul className="card-text">
+                When you are drowsy you can also have “micro sleeps” or brief
+                sleeps that can last for 4-5 seconds and at 55 miles per hour,
+                thats over 100 yards down the road asleep
               </ul>
               <a
                 target="_blank"
@@ -116,7 +121,30 @@ function App() {
               </a>
             </div>
             <div className="card">
-              <h1 className="card-title">Title</h1>
+              <h1 className="card-title">Legal</h1>
+              <ul className="card-text">
+                Only two states have legal consequences for people who drive
+                drowsy and injure/kill someone
+              </ul>
+              <ul className="card-text">
+                Both need proof that you were awake in excess of 24 consecutive
+                hours
+              </ul>
+              <ul className="card-text">
+                Arkansas - Must be a death and can give up to 20 years in jail
+              </ul>
+              <ul className="card-text">
+                New Jersey - In the even of an accident can be charged up to 10
+                years in prison and a $100,000 fine
+              </ul>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.ghsa.org/state-laws/issues/drowsy-driving"
+                className="source"
+              >
+                ghsa.gov
+              </a>
             </div>
           </div>
         </section>
