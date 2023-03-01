@@ -78,13 +78,14 @@ main::-webkit-scrollbar-thumb:hover {
   padding-bottom: 4px;
 }
 .card-visible {
+  overflow: hidden;
   filter: drop-shadow(0 5px 4px rgb(0 0 0 / 0.3))
     drop-shadow(0 3px 3px rgb(0 0 0 / 0.07));
   margin-bottom: 10px;
   background: #24292f;
   border-radius: 8px;
-  height: calc(55vh + 10px);
-  width: calc(40vh + 20px);
+  height: calc(60vh + 20px);
+  width: calc(40vh + 25px);
   border: #30363d 1px solid;
   padding: 10px;
   margin-left: 1.5rem;
@@ -93,13 +94,14 @@ main::-webkit-scrollbar-thumb:hover {
   transition: all 0.5s;
 }
 .card-hidden {
+  overflow: hidden;
   filter: drop-shadow(0 5px 4px rgb(0 0 0 / 0.3))
     drop-shadow(0 3px 3px rgb(0 0 0 / 0.07));
   margin-bottom: 10px;
   background: #24292f;
   border-radius: 8px;
-  height: calc(50vh + 10px);
-  width: calc(35vh + 20px);
+  height: calc(60vh + 20px);
+  width: calc(45vh + 20px);
   border: #30363d 1px solid;
   padding: 10px;
   margin-left: 1.5rem;
