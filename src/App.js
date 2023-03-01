@@ -134,8 +134,8 @@ function App() {
                 Arkansas - Must be a death and can give up to 20 years in jail
               </ul>
               <ul className="card-text">
-                New Jersey - In the even of an accident can be charged up to 10
-                years in prison and a $100,000 fine
+                New Jersey - In the even of an accident you can be charged up to
+                10 years in prison and a $100,000 fine
               </ul>
               <a
                 target="_blank"
